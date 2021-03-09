@@ -62,7 +62,7 @@ module.exports = {
     minimize: true,
     minimizer: [
       new CssMinimizerPlugin(),
-      new TercerPlugin()
+      new TerserPlugin()
     ]
   },
   devServer: {
